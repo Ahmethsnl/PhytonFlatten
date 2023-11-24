@@ -1,4 +1,4 @@
-## Proje 
+## Proje 1
 
 [22,27,16,2,18,6] -> Insertion Sort
 
@@ -17,7 +17,7 @@ Best case: Aradığımız sayının dizinin en başında olması.
 
 [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
-## Çözüm
+## Çözüm 1
 
 
 Insertion Sort Aşamaları:
@@ -42,6 +42,34 @@ Selection Sort Aşamaları:
 [2, 3, 4, 5, 8, 7, 9, 15, 6]
 Not: İlk dört adımı tamamlamak diziyi sıralamaya yeterlidir. Diğer adımlar sıralı kısmın devamını oluşturacaktır.
 
+## Proje 2
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
 Average Case: Aradığımız sayının ortada olması - O(n^2)
+
+## Çözüm 1
+
+Merge Sort Aşamaları:
+
+[16, 21, 11, 8, 12, 22]
+
+(Diziyi ikiye böldük)
+[16, 21, 11, 8, 12, 22]
+
+(Her bir alt listeyi ayrı ayrı sıraladık)
+[16, 21, 8, 11, 12, 22]
+
+(Her iki sıralı alt listeyi birleştirdik)
+[8, 11, 12, 16, 21, 22]
+
+(Her iki sıralı alt listeyi birleştirdik)
+Big-O Gösterimi: O(n log n)
+
+Merge Sort, ayrıştırma (divide) ve birleştirme (merge) adımlarıyla çalışır. Bu nedenle, her ayrıştırma ve birleştirme adımı logaritmik zaman alır. Toplam karmaşıklık O(n log n) olur.
+
+
 Worst Case: Aradığımız sayının sonda olması - O(n^2)
 Best Case: Aradığımız sayının dizinin en başında olması - O(n^2)
