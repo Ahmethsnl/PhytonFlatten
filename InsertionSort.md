@@ -73,3 +73,25 @@ Merge Sort, ayrıştırma (divide) ve birleştirme (merge) adımlarıyla çalı�
 
 Worst Case: Aradığımız sayının sonda olması - O(n^2)
 Best Case: Aradığımız sayının dizinin en başında olması - O(n^2)
+
+## Proje 3
+
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+## Çözüm 3
+
+Binary Search Tree (BST) aşamaları şu şekildedir:
+
+7 -> Root
+5 -> Root'un solunda
+1 -> 5'in solunda
+0 -> 1'in solunda
+3 -> 1'in sağından 5'in soluna
+2 -> 3'ün solunda
+4 -> 3'ün sağından 5'in soluna
+8 -> Root'un sağına
+6 -> 8'in solunda
+9 -> 8'in sağından Root'un sağına
+4 -> 9'un sağından 8'in sağına
